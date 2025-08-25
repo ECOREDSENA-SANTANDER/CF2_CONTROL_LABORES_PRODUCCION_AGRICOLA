@@ -56,9 +56,43 @@ figcaption
 .bloque-texto-a.color-primario:before
     background-color: #DDF6CD
 .cajon.color-primario
-    background-color: #EEFBE6 !important;
-    &::before
-      background-color: #AAE882 !important
+    background-color: #CCE2D6 !important;
+
+.bloque-texto-g.color-primario
+    background-color: #99C4AE;
+
+.tarjeta.color-secundario
+    background-color: #EEFBE6;
+
+.tabla-a thead 
+    background-color: #CCE2D6
+.tabla-a table th, .tabla-a stable td
+    padding: 15px 20px !important
+.tabla-a table caption
+    font-weight: normal !important
+.tabs-c.color-primario .tabs-c__tab--active 
+  background-color: #EEFBE6
+  font-weight: 900
+.tabs-c__tab 
+  background-color: #EEFBE6
+  border-bottom: 6px solid #B1DBDA
+.tabs-c 
+    border-bottom: 0px
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #D93A04 !important
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #D93A04 
+.tabs-c__tab--active 
+  border-bottom: 6px solid !important
+  background-color: #fff !important
+.tabs-c__header 
+  margin-bottom: -7px
+.tabs-c__tab:after 
+  width: 2.5px;
+  height: 25px;
+  top: 50%;
+  right: -2px;
+  background-color: #FFAD09
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -74,6 +108,12 @@ figcaption
     color: $color-primario !important
   &-2
     background-color: #B1DBDA  
+  &-3
+    background-color: #EEFBE6
+  &-4
+    color: #FFAD09 !important
+  &-5
+    background-color: #CCE2D6
 .br
   &-1
     border-radius: 10px !important
@@ -83,13 +123,94 @@ figcaption
     margin-left: 30px !important
   &-2
     margin-top: 3rem 
-      
+
+.pcus
+  &-1
+    padding-left: 0px !important   
+    margin-left: 0px !important;
+
 .hcard
   &-1
-    height: 750px !important
+    height: 200px !important
 
-      
+.titcus
+  &-1
+    color: #593C03    !important   
 
+
+.titulo-icono
+  background-color: #FFF7E5
+  border-radius: 10px
+  width: fit-content
+  position: relative;
+  left: 12px;
+  &-text
+    margin-right: 10px
+    margin-left: 50px;
+    color: $color-sistema-texto
+  &-img
+    padding: 0px
+    position: absolute
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+.card-cus 
+  background: url('../assets/curso/temas/bg/2.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  
+  &:hover 
+    background-image: url('../assets/curso/temas/bg/3.svg')
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+    .ima1 
+      background-color: #99C4AE !important
+    .ima2 
+      background-color: #99C4AE !important
+    .ima3 
+      background-color: #99C4AE !important
+    .ima4 
+      background-color: #99C4AE !important
+  .ima1, .ima2, .ima3, .ima4 
+    background-color: #FFDE9C
+    transition: all 0.3s ease
+    display: inline-block
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important 
+   
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.85rem ))
+    background-color: #EEFBE6
+    width: 100%;
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -106,7 +227,8 @@ figcaption
   .mcus
     &-2
       margin-top: 0.5rem !important;
-  
+  .bloque-texto-g 
+    padding-top: 7% !important;
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -119,5 +241,9 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .hcard
+    &-1
+      height: auto !important
+  
 
   
