@@ -1,30 +1,123 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 68%
+    right: 65%
+  &-2
+    animation: float1 2.0s ease-in-out infinite alternate
+    position: absolute
+    top: 48%
+    right: 15%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 72%
+    right: 5%
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 58.33333333% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important;
+.banner-principal__img 
+  padding-bottom: 0 !important;
+.banner-principal__row .banner-principal__img 
+    width: 33%;
+    
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: $white !important  
+
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, 
+.banner-interno__titulo h3, .banner-interno__titulo h4, 
+.banner-interno__titulo h5, .banner-interno__titulo h6
+  color: $white !important  
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+figcaption 
+    font-weight: normal !important
+
+    background-color: #D2C3DD !important
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *,
+.boton *, .boton--sm *
+  color: #fff !important
+
+.bloque-texto-a.color-primario
+  background-color: #99C4AE !important
+.bloque-texto-a.color-primario:before
+    background-color: #DDF6CD
+.cajon.color-primario
+    background-color: #EEFBE6 !important;
+    &::before
+      background-color: #AAE882 !important
+/**************************************************************/
+/***CUSTOM STYLES***/
+/**************************************************************/
+.p-full-width
+  padding: 3rem 2.5rem!important;
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+.bg-color
+  &-1
+    color: $color-primario !important
+  &-2
+    background-color: #B1DBDA  
+.br
+  &-1
+    border-radius: 10px !important
+
+.mcus
+  &-1
+    margin-left: 30px !important
+  &-2
+    margin-top: 3rem 
+      
+.hcard
+  &-1
+    height: 750px !important
+
+      
+
+/**************************************************************/
+/*Media Queries*/  
+/**************************************************************/
+
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important 
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .mcus
+    &-2
+      margin-top: 0.5rem !important;
+  
+  
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+
   
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
-.banner-interno__titulo__icono i
-  color: $color-primario
-figcaption
-  font-weight: normal
- 
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em  !important
+
+  
