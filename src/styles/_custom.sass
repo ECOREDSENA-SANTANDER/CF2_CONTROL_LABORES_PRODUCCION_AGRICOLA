@@ -103,6 +103,18 @@ figcaption
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/bg/7.svg") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+  &-2
+    background-image: url("../assets/curso/temas/bg/8.png") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+
 .bg-color
   &-1
     color: $color-primario !important
@@ -114,20 +126,33 @@ figcaption
     color: #FFAD09 !important
   &-5
     background-color: #CCE2D6
+  &-6
+    background-color: #FFF7E5
+  &-7
+    background-color: #fff
 .br
   &-1
     border-radius: 10px !important
+  &-2
+    border-radius: 0px !important
+  &-3
+    border-radius: 20px !important
 
 .mcus
   &-1
     margin-left: 30px !important
   &-2
     margin-top: 3rem 
-
+  &-3
+    margin-top: 2rem 
 .pcus
   &-1
     padding-left: 0px !important   
     margin-left: 0px !important;
+  &-2
+    padding: 4rem 2rem;
+  &-3
+    padding: 3rem;
 
 .hcard
   &-1
@@ -137,7 +162,9 @@ figcaption
   &-1
     color: #593C03    !important   
 
-
+.wcus
+  &-1
+    width: 10%
 .titulo-icono
   background-color: #FFF7E5
   border-radius: 10px
@@ -244,6 +271,14 @@ figcaption
   .hcard
     &-1
       height: auto !important
+  .pcus
+    &-2
+      padding: 2rem 1rem;
+    &-3
+      padding: 1rem !important
+  .tarjeta--container > .tarjeta:first-child,
+  .tarjeta--container > .tarjeta:last-child
+    border-radius:  0px !important
   
 
   

@@ -481,6 +481,572 @@
                   span Ir al sitio
                   i.fas.fa-file-video  
 
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Indicadores de desempeño
+      
+      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t1/24.png', alt='')(data-aos="fade-left")
+      p.mb-3(data-aos="fade-left") Son como brújulas dentro del plan de monitoreo agrícola: nos muestran si vamos por buen camino en la ejecución de las actividades programadas. Más que medir los resultados finales, estos indicadores permiten evaluar cómo se están llevando a cabo las tareas: si se hacen a tiempo, con eficiencia y con los recursos adecuados.
+      p.mb-5(data-aos="fade-left") En el contexto agrícola, ayudan a responder preguntas clave como: 
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-left")
+        .col-sm-12.col-lg-5.mb-0
+          ul.lista-ul.lista-ul--separador.mb-0
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0  ¿Se están usando bien los insumos y la mano de obra?
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0  ¿Se están cumpliendo los tiempos del cronograma?
+
+            li.d-flex.mb-0
+              i.fas.fa-check.bg-color-4
+              p.mb-0  ¿Se aplican correctamente los procedimientos técnicos?
+
+          
+        .col-sm-12.col-lg-7.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/25.png', alt='')
+
+      .cajon.color-secundario.p-4.mb-5(data-aos="fade-left")
+        p.mb-0 Para que sean útiles, los indicadores deben ser claros, específicos, medibles y comprobables, y deben estar alineados con los objetivos operativos del plan. Gracias a ellos, es posible detectar a tiempo retrasos, errores o desviaciones, y tomar decisiones que mejoren el desempeño en el terreno.
+
+      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+          p.mb-0 #[b Tabla 5.] Ejemplos indicadores de desempeño
+      .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
+        table(alt="Presenta ejemplos de indicadores de desempeño utilizados para medir la eficiencia y cumplimiento de las actividades agrícolas en diferentes áreas clave del proceso productivo.")
+          caption Referencia Tabla - Norma APA
+          thead.bg-color-7
+            tr
+              th Área de evaluación
+              th Indicador de desempeño
+              th Unidad de medida
+              th Frecuencia de medición
+          tbody
+            tr
+              td Mano de obra
+              td Porcentaje de actividades ejecutadas según el cronograma.
+              td % de cumplimiento.
+              td Semanal.
+
+            tr
+              td Maquinaria
+              td Horas efectivas de uso diario de maquinaria.
+              td Horas por día.
+              td Diario.
+
+            tr
+              td Insumos agrícolas
+              td Relación entre insumos aplicados y planificados.
+              td kg/ha aplicados versus Planificados.
+              td Por ciclo.
+
+            tr
+              td Actividades de campo
+              td Tiempo promedio en la ejecución de labores (siembra, riego).
+              td Horas por actividad.
+              td Diario / Semanal.
+
+            tr
+              td Ejecución técnica
+              td Número de fallas técnicas o errores detectados en campo.
+              td Número de incidentes por semana.
+              td Semanal.
+
+            tr
+              td Uso del tiempo
+              td Nivel de cumplimiento del cronograma diario de labores.
+              td % de cumplimiento.
+              td Diario.
+
+
+      .bg-color-6.p-4.mb-5(data-aos="fade-left")
+        p.mb-0 El uso de indicadores de desempeño permite tomar decisiones correctivas de manera oportuna, mejorar la organización del trabajo, optimizar el uso de recursos y fortalecer la gestión técnica del sistema agrícola. Además, su análisis contribuye a una mejor planificación de futuros ciclos productivos y a la formación de trabajadores con una visión más profesional, enfocada en la eficiencia, la calidad y la mejora continua.
+
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Datos de referencia
+
+      .row.justify-content-center.align-items-center.bg-color-3.mb-5(data-aos="fade-left")
+        .col-sm-12.col-lg-5.d-none.d-lg-block.pcus-1
+          img(src='@/assets/curso/temas/t1/26.png', alt='')
+        .col-sm-12.col-lg-7.p-4
+            img.mb-4.wcus-1.d-none.d-lg-block(src='@/assets/curso/temas/t1/27.svg', alt='')
+            p.mb-0 Los datos de referencia son valores base que sirven como punto de comparación para evaluar el desempeño y los resultados de las labores agrícolas. Funcionan como una línea base desde la cual se miden los avances, desviaciones o mejoras a lo largo del proceso productivo.
+
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Por qué son importantes?
+
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-left")
+        .col-sm-12.col-lg-8.mb-0
+          ul.lista-ul.lista-ul--separador.mb-0
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0 Ayudan a interpretar con mayor precisión los indicadores de desempeño.
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0  Permiten detectar a tiempo problemas técnicos o desviaciones operativas.
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0  Facilitan la toma de decisiones correctivas y la mejora continua.
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0  Contribuyen a evaluar si se están cumpliendo los objetivos dentro de los márgenes esperados.
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0  Apoyan la planificación de futuros ciclos productivos con datos reales y comparables.
+  
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/28.png', alt='')
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿De dónde vienen estos datos?
+
+      .tarjeta--container.row.mb-5(data-aos="fade-left")
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-5.br-2.p-5.mb-cus
+          .row.justify-content-center.mb-4.d-none.d-lg-block
+            .col-6.m-auto
+              figure
+                img(src='@/assets/curso/temas/t1/29.svg')
+          h4.text-center.mb-4 Ciclos productivos anteriores
+          p.text-center Información histórica del mismo cultivo o predio.
+          p.text-center.fw-bold Ejemplos comunes
+          p.text-center.mb-0 Rendimientos pasados, uso de insumos, costos operativos, tiempos de cosecha.
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.color-secundario.p-5.mb-cus
+          .row.justify-content-center.mb-4.d-none.d-lg-block
+            .col-6.m-auto
+              figure
+                img(src='@/assets/curso/temas/t1/30.svg')
+          h4.text-center.mb-4 Estándares técnicos o BPA
+          p.text-center Recomendaciones establecidas por entidades técnicas o normativas.
+          p.text-center.fw-bold Ejemplos comunes
+          p.text-center.mb-0 Guías del ICA, FAO, Agrosavia, manuales agronómicos, normas de Buenas Prácticas.
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.bg-color-5.br-2.p-5.mb-cus
+          .row.justify-content-center.mb-4.d-none.d-lg-block
+            .col-6.m-auto
+              figure
+                img(src='@/assets/curso/temas/t1/31.svg')
+          h4.text-center.mb-4 Datos iniciales de campo
+          p.text-center Información histórica del mismo cultivo o predio.
+          p.text-center.fw-bold Ejemplos comunes
+          p.text-center.mb-0 Análisis de suelo, diagnóstico fitosanitario, condiciones climáticas iniciales.
+        .col-sm-12.col-md-6.col-lg-3.tarjeta.color-secundario.br-2.p-5.mb-cus
+          .row.justify-content-center.mb-4.d-none.d-lg-block
+            .col-6.m-auto
+              figure
+                img(src='@/assets/curso/temas/t1/32.svg')
+          h4.text-center.mb-4  Planes técnicos del cultivo
+          p.text-center Parámetros establecidos en el cronograma agronómico o plan de manejo.
+          p.text-center.fw-bold Ejemplos comunes
+          p.text-center.mb-0 Días estimados para germinación, fechas de fertilización, momentos de cosecha.
+
+
+
+      .bg-color-2.p-4.mb-5.text-center(data-aos="fade-left")
+        p.mb-0 Tener datos de referencia claros, reales y verificables es clave para saber si los resultados están dentro de lo esperado y tomar decisiones informadas.
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Qué son las metas de desempeño en el monitoreo agrícola?
+      
+      .cajon.color-secundario.p-4.mb-5(data-aos="fade-left")
+        p.mb-0 Las metas de desempeño son objetivos concretos que se establecen dentro del plan de monitoreo para evaluar si las labores agrícolas se están llevando a cabo de manera eficiente. Funcionan como una referencia que permite comparar lo planificado con lo que realmente ocurre en el campo.
+      
+      p.mb-5(data-aos="fade-left") Estas metas deben cumplir con los criterios SMART, es decir, ser:
+
+      .row.justify-content-center.mb-5.bg-fondo-1.align-items-center.pcus-3(data-aos="fade-left")
+        .col-sm-12.col-lg-5
+          .bg-color-7.p-4.br-3
+            ul.lista-ul.lista-ul--separador.mb-0
+              li.d-flex
+                i.fas.fa-check.bg-color-4
+                p.mb-0 #[b S:] específicas.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4
+                p.mb-0 #[b M:] medibles.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4
+                p.mb-0 #[b A:] alcanzables.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4
+                p.mb-0 #[b R:] relevantes.
+
+              li.d-flex.mb-0
+                i.fas.fa-check.bg-color-4
+                p.mb-0 #[b T:] temporales (tener un plazo definido).
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/33.png', alt='')
+
+
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Para qué sirven?
+
+
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-left")
+        .col-sm-12.col-lg-7.mb-0
+          ul.lista-ul.lista-ul--separador.mb-0
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0 Para evaluar el grado de cumplimiento del plan de trabajo.
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0 Para identificar si se requiere hacer ajustes o tomar decisiones correctivas.
+
+            li.d-flex
+              i.fas.fa-check.bg-color-4
+              p.mb-0 Para orientar al equipo técnico y operativo hacia una gestión eficiente y de calidad.
+
+            li.d-flex.mb-0
+              i.fas.fa-check.bg-color-4
+              p.mb-0 Para mantener el control y mejorar continuamente el proceso agrícola.
+
+            
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/34.png', alt='')
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Cómo se establecen?
+      
+      p.mb-5(data-aos="fade-left") Las metas se definen a partir de:
+      .row.justify-content-center.mb-5.bg-fondo-2.align-items-center.pcus-3(data-aos="fade-left")
+        .col-sm-12.col-lg-5
+          .bg-color-7.p-4.br-3
+            ul.lista-ul.lista-ul--separador.mb-0
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Datos de referencia (históricos, técnicos o del ciclo actual).
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Experiencia previa en el cultivo.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Condiciones agroclimáticas.
+
+              li.d-flex.mb-0
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Recursos disponibles (mano de obra, insumos, presupuesto).
+
+            
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/35.png', alt='')  
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Ejemplo de meta SMART
+
+      p.mb-5(data-aos="fade-left") Lograr una germinación del 90 % en las parcelas sembradas dentro de los primeros 10 días posteriores a la siembra.
+      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+          p.mb-0 #[b Tabla 6.] Ejemplo metas de desempeño
+      .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
+        table(alt="Presenta ejemplos de metas de desempeño aplicadas al monitoreo agrícola, con sus valores esperados y el periodo en que deben ser evaluadas para garantizar eficiencia y cumplimiento en las labores del campo.")
+          caption Referencia Tabla - Norma APA
+          thead.bg-color-7
+            tr
+              th Indicador de desempeño
+              th Meta esperada
+              th Periodo de evaluación
+          tbody
+            tr
+              td Porcentaje de ejecución de actividades planificadas
+              td ≥ 90 % de tareas realizadas según cronograma.
+              td Semanal.
+
+            tr
+              td Tiempo promedio en la actividad de siembra
+              td ≤ 5 horas por hectárea.
+              td Diario.
+
+            tr
+              td Uso eficiente de fertilizante
+              td No superar ±5 % de la dosis planificada (kg/ha).
+              td Por ciclo.
+
+            tr
+              td Número de fallas técnicas detectadas
+              td ≤ 3 errores operativos por semana.
+              td Semanal.
+
+            tr
+              td Cumplimiento del horario de labores
+              td ≥ 95 % de jornadas iniciadas a tiempo.
+              td Diario.
+
+
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img.d-none.d-lg-block(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/t1/36.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-3 El establecimiento de metas claras y bien definidas permite llevar a cabo un seguimiento preciso del desempeño operativo, facilitando la toma de decisiones informadas y basadas en evidencias reales. Estas metas no solo sirven como puntos de control, sino que también impulsan la mejora continua en los procesos agrícolas, al permitir identificar oportunidades de optimización y corrección a tiempo.
+          p.mb-0 Además, contribuyen a fortalecer la disciplina y la organización en el trabajo de campo, al establecer expectativas concretas sobre tiempos, calidad y uso de recursos. También refuerzan el sentido de responsabilidad del equipo técnico y operativo, promoviendo una cultura de compromiso, eficiencia y orientación a resultados dentro del sistema productivo.
+
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Medios de verificación
+
+      .row.justify-content-center.mb-5(data-aos="fade-left")
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/37.svg', alt='')
+        .col-sm-12.col-lg-8.p-4.bg-color-2
+            p.mb-3.mcus-3 Los medios de verificación son los instrumentos, documentos o evidencias que permiten comprobar que los indicadores de desempeño han sido medidos correctamente y que las metas establecidas están siendo alcanzadas.
+            p.mb-0 Cumplen un papel clave en el monitoreo, ya que respaldan la validez y confiabilidad de los datos obtenidos. Gracias a ellos, es posible demostrar que las labores agrícolas se están ejecutando como se planificó.
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Por qué son importantes?
+      
+      .row.justify-content-center.mb-5.bg-fondo-2.align-items-center.pcus-3(data-aos="fade-left")
+        .col-sm-12.col-lg-5
+          .bg-color-7.p-4.br-3
+            ul.lista-ul.lista-ul--separador.mb-0
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Permiten verificar los avances y resultados de forma objetiva.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Facilitan auditorías, seguimientos técnicos y análisis posteriores.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Respaldan la toma de decisiones basada en evidencia.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Aportan trazabilidad y transparencia al proceso productivo.
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/38.png', alt='')  
+
+
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Qué formas pueden tomar?
+
+      p.mb-5(data-aos="fade-left") Los medios de verificación pueden variar según el tipo de indicador y el método de monitoreo utilizado. Algunos ejemplos comunes en el contexto agrícola son:    
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-left")
+        .col-sm-12.col-lg-7
+            ul.lista-ul.lista-ul--separador.mb-0
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Formatos y planillas de campo (registro de actividades, control de insumos, reportes diarios).
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Fotografías o videos georreferenciados.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Sistemas de información o aplicaciones móviles.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Bitácoras digitales o físicas.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Informes técnicos o actas de supervisión.
+
+              li.d-flex.mb-0
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Registros de sensores, drones o estaciones meteorológicas
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/39.png', alt='')  
+
+
+      .cajon.color-secundario.p-4.mb-5(data-aos="fade-left")
+        p.mb-0 Es fundamental que estos medios de verificación sean accesibles, actualizados y estén bien organizados, para garantizar su utilidad tanto en el día a día del campo como en procesos de evaluación técnica.
+
+      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+          p.mb-0 #[b Tabla 7.] Ejemplos medios de verificación
+      .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
+        table(alt="Presenta ejemplos de medios de verificación asociados a distintos indicadores de desempeño en el contexto agrícola. Estos elementos permiten comprobar, de forma objetiva y documentada, el cumplimiento de las actividades planificadas, el uso adecuado de recursos y la eficiencia operativa en campo. Su correcta utilización fortalece la trazabilidad, la transparencia y la toma de decisiones basada en evidencias.")
+          caption Referencia Tabla - Norma APA
+          thead.bg-color-7
+            tr
+              th Indicador de desempeño
+              th Medio de verificación
+          tbody
+            tr
+              td Porcentaje de actividades ejecutadas.
+              td Formatos de control de labores / bitácoras de campo.
+
+            tr
+              td Tiempo promedio en la actividad de siembra.
+              td Registros diarios de jornada / hojas de tiempo.
+
+            tr
+              td Uso eficiente de fertilizante.
+              td Facturas de compra / reportes de aplicación / recetas técnicas.
+
+            tr
+              td Número de fallas técnicas detectadas.
+              td Reportes de supervisión / listas de chequeo / fotografías.
+
+            tr
+              td Cumplimiento del horario de labores.
+              td Registros de asistencia / control de entrada y salida.
+
+
+
+
+      .cajon.color-primario.p-4.mb-5(data-aos="fade-left")
+        p.mb-0 El uso sistemático de los medios de verificación no solo respalda la información reportada, sino que también permite realizar análisis comparativos, identificar tendencias, validar procesos y documentar buenas prácticas agrícolas. Su implementación contribuye al fortalecimiento de las competencias técnicas del equipo de trabajo, promoviendo la rigurosidad en el control, seguimiento y evaluación de las actividades agrícolas.
+
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Por qué es importante asignar responsabilidades en la recopilación de datos?
+
+      .row.justify-content-center.mb-5.align-items-center
+        .col-sm-12.col-lg-5.bg-color-6.mb-cus
+          p.mb-0.pcus-2 La responsabilidad en la recopilación de datos implica asignar de forma clara y organizada las funciones dentro del equipo de trabajo, para garantizar que la información obtenida durante el monitoreo sea confiable, oportuna y verificable.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/40.svg', alt='')
+        .col-sm-12.col-lg-3
+          img.w-25.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t1/41.svg', alt='')
+          p.mb-0 Cuando cada integrante sabe exactamente qué debe hacer, cómo hacerlo y con qué herramientas, el proceso de recolección se vuelve más disciplinado, preciso y continuo.
+        .col-sm-12.col-lg-1.d-none.d-lg-block
+          img.w-50(src='@/assets/curso/temas/t1/42.svg', alt='')
+      
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 ¿Qué debe tener en cuenta cada persona del equipo?
+
+
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-left")
+        .col-sm-12.col-lg-7
+            ul.lista-ul.lista-ul--separador.mb-0
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Conocer qué indicadores debe observar o medir.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0  Saber qué instrumentos o formatos debe usar (planillas, apps, sensores, etc.).
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0  Tener claro cuándo y con qué frecuencia debe recolectar los datos.
+
+              li.d-flex
+                i.fas.fa-check.bg-color-4 
+                p.mb-0 Entender cómo registrar la información de forma correcta y ordenada.
+
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/43.png', alt='')   
+
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Asignar responsabilidades con claridad ayuda a evitar
+
+      .tarjeta--container.row.mb-5(data-aos="fade-left")
+        .col-md.tarjeta.color-primario.p-5.mb-cus
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/44.svg')
+          h3.text-center.mb-0 Duplicación de tareas
+        .col-md.tarjeta.color-secundario.p-5.mb-cus
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/45.svg')
+          h3.text-center.mb-0 Errores en los registros
+        .col-md.tarjeta.color-acento-contenido.p-5
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img(src='@/assets/curso/temas/t1/46.svg')
+          h3.text-center.mb-0 Pérdida o falta de información
+
+
+      p.mb-5(data-aos="fade-left") Además, facilita el análisis posterior, la trazabilidad de los datos y una toma de decisiones más efectiva en el manejo del sistema agrícola.
+      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+          p.mb-0 #[b Tabla 8.] Ejemplo de responsabilidad en la recopilación de datos
+      .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
+        table(alt="Ejemplo claro de cómo distribuir responsabilidades en la recolección de datos agrícolas. Cada rol cuenta con tareas definidas y herramientas específicas, lo que asegura un monitoreo ordenado, preciso y eficiente del proceso productivo. Esta organización facilita la trazabilidad y el análisis técnico.")
+          caption Referencia Tabla - Norma APA
+          thead.bg-color-7
+            tr
+              th Responsable
+              th Tareas asignadas
+              th Instrumentos utilizados
+          tbody
+            tr
+              td Supervisor de campo
+              td Coordinar la recolección de datos, validar la calidad de la información
+              td Checklists, informes técnicos.
+
+            tr
+              td Auxiliar agrícola
+              td Registrar actividades realizadas y tiempos de ejecución.
+              td Formatos diarios de labores, hojas de tiempo.
+
+            tr
+              td Técnico agrónomo
+              td Tomar muestras de suelo y evaluar condiciones del cultivo.
+              td Fichas de muestreo, sensores, fotografías.
+
+            tr
+              td Operador de tecnología
+              td Monitorear datos de sensores, GPS, drones o estaciones meteorológicas.
+              td Software de monitoreo, plataformas IoT.
+
+            tr
+              td Coordinador del plan
+              td Consolidar la información, revisar los datos y elaborar reportes periódicos.
+              td Base de datos, hojas de cálculo, reportes finales.
+
+
+      .cajon.color-secundario.p-4.mb-0(data-aos="fade-left")
+        p.mb-0 Establecer responsabilidades claras en la recopilación de datos no solo mejora la calidad del monitoreo, sino que también promueve la rendición de cuentas, el trabajo en equipo y la eficiencia operativa. Esta práctica fortalece la cultura de orden, compromiso y profesionalismo en la gestión de la información técnica dentro del sector agropecuario.
   </template>
 
 <script>
