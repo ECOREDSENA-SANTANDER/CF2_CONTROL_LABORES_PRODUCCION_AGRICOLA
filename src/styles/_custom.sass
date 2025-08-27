@@ -93,6 +93,19 @@ figcaption
   top: 50%;
   right: -2px;
   background-color: #FFAD09
+.linea-tiempo-e:before
+    left: 6%;
+    width: 5px;
+    transform: translateX(-530%);
+.linea-tiempo-e__item__header:before 
+    right: -28px;
+    transform: translateX(-50%);
+.linea-tiempo-e__item__header
+    width: 0%;
+.linea-tiempo-e__item__body
+    width: 100%;
+.tarjeta-numerada
+    padding-left: 2.3rem !important;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -153,10 +166,17 @@ figcaption
     padding: 4rem 2rem;
   &-3
     padding: 3rem;
+  &-4
+    padding-left: 0px !important   
+    margin-left: 0px !important;
+    padding-right: 0px !important   
+    margin-right: 0px !important;
 
 .hcard
   &-1
     height: 200px !important
+  &-2
+    height: 250px !important
 
 .titcus
   &-1
@@ -269,7 +289,7 @@ figcaption
   .mb-cus
     margin-bottom: 2em  !important
   .hcard
-    &-1
+    &-1, &-2
       height: auto !important
   .pcus
     &-2
