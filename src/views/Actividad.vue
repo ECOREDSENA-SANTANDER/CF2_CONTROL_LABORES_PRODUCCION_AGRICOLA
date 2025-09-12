@@ -22,8 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> identificar los tipos de monitoreo y métodos de monitoreo para la realización del plan de monitoreo.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,

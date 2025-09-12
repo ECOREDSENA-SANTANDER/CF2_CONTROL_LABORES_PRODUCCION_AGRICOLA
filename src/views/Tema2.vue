@@ -113,7 +113,7 @@
           p.mb-0 #[b Tabla 9.] Ejemplo de identificación de necesidades de evaluaciones complementarias
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="La tabla presenta ejemplos de situaciones detectadas durante el monitoreo agrícola que requieren evaluaciones complementarias. Estas evaluaciones permiten profundizar en el análisis técnico para identificar causas específicas de los problemas, ajustar decisiones y mejorar la gestión productiva. Su aplicación se adapta al tipo de anomalía observada, fortaleciendo la precisión de las intervenciones en campo.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Situación detectada
@@ -162,7 +162,7 @@
               .tarjeta-numerada.color-secundario.px-4.py-4.hcard-2.mb-4
                 .tarjeta-numerada__numero
                   .h2 2
-                h4.text-center A quién va dirigid
+                h4.text-center A quién va dirigido
                 p.text-center Productores, técnicos, supervisores, instituciones u otros actores involucrados, según su nivel de responsabilidad.
             .col-sm-12.col-md-6.col-lg-3
               .tarjeta-numerada.color-acento-contenido.px-4.py-4.hcard-2.mb-4
@@ -185,7 +185,7 @@
           p.mb-0 #[b Tabla 10.] Aspectos para los planes de comunicación
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta los aspectos clave para estructurar un plan de comunicación efectivo en el contexto agrícola. Define la audiencia objetivo, el tipo de información a comunicar, los formatos más adecuados, la frecuencia de entrega, los responsables de transmitir los datos y el uso previsto de la información. Este enfoque asegura que los hallazgos del monitoreo lleguen de forma oportuna y pertinente a todos los actores involucrados, facilitando la toma de decisiones, la implementación de mejoras y la retroalimentación continua.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Aspecto
@@ -261,7 +261,7 @@
           p.mb-0 #[b Tabla 11.] Ejemplo de medidas correctivas
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta ejemplos de medidas correctivas aplicables ante situaciones críticas detectadas durante el monitoreo agrícola. Cada problema identificado se asocia con una acción específica, un responsable designado y un plazo de ejecución, lo cual permite una respuesta oportuna y organizada. Este enfoque contribuye a mantener la eficiencia operativa del sistema productivo y a prevenir impactos negativos sobre el rendimiento del cultivo.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Problema detectado
@@ -308,7 +308,7 @@
         .bloque-texto-g__img.d-none.d-lg-block(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t2/12.png')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4.d-flex.flex-column
           p.mb-3 La elaboración de informes representa la fase final del proceso de monitoreo, en la cual se consolida, organiza y comunica la información recolectada, analizada y procesada durante la ejecución del plan de trabajo agrícola. Estos informes permiten documentar los avances, evaluar el cumplimiento de las metas, respaldar decisiones técnicas y dejar evidencia verificable de las actividades realizadas.
           p.mb-0 Un informe bien estructurado debe presentar la información de manera clara, objetiva, precisa y ordenada, utilizando un lenguaje técnico adecuado. Siempre que sea posible, debe incluir gráficos, tablas, fotografías y recomendaciones. Además, debe facilitar la toma de decisiones correctivas o preventivas y servir como referencia para futuras etapas del proceso productivo.
 
@@ -316,7 +316,7 @@
           p.mb-0 #[b Tabla 12.] Contenido que debe llevar el informe
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta los componentes esenciales que debe incluir un informe técnico agrícola, desde la introducción hasta los anexos. Cada sección permite organizar y comunicar de forma clara los objetivos, resultados, análisis y acciones correctivas del proceso de monitoreo, facilitando así una gestión eficiente y basada en evidencias.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Sección del informe

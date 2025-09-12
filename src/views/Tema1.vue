@@ -23,7 +23,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-2.titcus-1 Gestión y análisis de datos para el monitoreo de labores agrícolas.
-                p.mb-0 Conoce cómo los datos optimizan el trabajo en el campo.Conoce cómo los datos optimizan el trabajo en el campo.
+                p.mb-0 Conoce cómo los datos optimizan el trabajo en el campo.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=1vlUxgkzetg" target="_blank")
                   span Ir al sitio
@@ -90,7 +90,7 @@
           p.mb-0 #[b Tabla 1.] Componentes del monitoreo agronómico
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="El monitoreo agronómico permite evaluar el estado del cultivo en aspectos clave como su desarrollo, nutrición, plagas, suelo, clima y labores agrícolas. Cada uno se observa con una frecuencia específica para tomar decisiones oportunas y mejorar el rendimiento del campo.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Área evaluada
@@ -154,7 +154,7 @@
           p.mb-0 #[b Tabla 2.] Principales variables a monitorear
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Las variables climáticas como temperatura, precipitación, humedad y radiación solar son claves en el desarrollo del cultivo. Su monitoreo permite prevenir riesgos, optimizar el riego y tomar decisiones agronómicas acertadas.")
-          caption Referencia Tabla - Norma APA
+          ////caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Variable climática
@@ -240,7 +240,7 @@
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t1/11.png')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4.d-flex.flex-column
           p.mb-4 Es el proceso de observación, detección y registro sistemático de plagas, enfermedades y malezas que puedan afectar la sanidad y el rendimiento del cultivo. Este tipo de monitoreo tiene como objetivo identificar oportunamente los agentes nocivos, evaluar su nivel de incidencia y determinar si es necesario aplicar medidas de control.
           p.mb-0 El enfoque del monitoreo fitosanitario está basado en principios de manejo integrado, lo que implica observar el cultivo en distintas etapas de su desarrollo, registrar síntomas visibles, cuantificar daños y establecer umbrales de acción. Esto permite minimizar el uso indiscriminado de agroquímicos y favorecer decisiones más sostenibles y efectivas.
 
@@ -250,7 +250,7 @@
           p.mb-0 #[b Tabla 3.] Aspectos evaluados en el monitoreo fitosanitario
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta los principales aspectos a tener en cuenta durante el monitoreo fitosanitario en un cultivo. Se destacan cuatro elementos clave: plagas, enfermedades, malezas y condiciones predisponentes, junto con los parámetros específicos a registrar y la frecuencia recomendada para su evaluación. Este tipo de seguimiento permite detectar oportunamente problemas sanitarios, facilitando la toma de decisiones para el manejo integrado y la protección del cultivo.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Elemento observado
@@ -358,7 +358,7 @@
           p.mb-0 #[b Tabla 4.] Principales recursos a monitorear en producción agrícola
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="La tabla muestra los recursos clave en la producción agrícola que deben monitorearse, como insumos, mano de obra, maquinaria, agua, energía y recursos económicos. Para cada uno se definen aspectos a controlar y herramientas de verificación como registros, facturas e informes.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Recurso
@@ -516,7 +516,7 @@
           p.mb-0 #[b Tabla 5.] Ejemplos indicadores de desempeño
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta ejemplos de indicadores de desempeño utilizados para medir la eficiencia y cumplimiento de las actividades agrícolas en diferentes áreas clave del proceso productivo.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Área de evaluación
@@ -642,7 +642,7 @@
               figure
                 img(src='@/assets/curso/temas/t1/31.svg')
           h4.text-center.mb-4 Datos iniciales de campo
-          p.text-center Información histórica del mismo cultivo o predio.
+          p.text-center Información recolectada antes del inicio del ciclo productivo.
           p.text-center.fw-bold Ejemplos comunes
           p.text-center.mb-0 Análisis de suelo, diagnóstico fitosanitario, condiciones climáticas iniciales.
         .col-sm-12.col-md-6.col-lg-3.tarjeta.color-secundario.br-2.p-5.mb-cus
@@ -771,7 +771,7 @@
           p.mb-0 #[b Tabla 6.] Ejemplo metas de desempeño
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta ejemplos de metas de desempeño aplicadas al monitoreo agrícola, con sus valores esperados y el periodo en que deben ser evaluadas para garantizar eficiencia y cumplimiento en las labores del campo.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Indicador de desempeño
@@ -808,7 +808,7 @@
         .bloque-texto-g__img.d-none.d-lg-block(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t1/36.png')})`}"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4.d-flex.flex-column
           p.mb-3 El establecimiento de metas claras y bien definidas permite llevar a cabo un seguimiento preciso del desempeño operativo, facilitando la toma de decisiones informadas y basadas en evidencias reales. Estas metas no solo sirven como puntos de control, sino que también impulsan la mejora continua en los procesos agrícolas, al permitir identificar oportunidades de optimización y corrección a tiempo.
           p.mb-0 Además, contribuyen a fortalecer la disciplina y la organización en el trabajo de campo, al establecer expectativas concretas sobre tiempos, calidad y uso de recursos. También refuerzan el sentido de responsabilidad del equipo técnico y operativo, promoviendo una cultura de compromiso, eficiencia y orientación a resultados dentro del sistema productivo.
 
@@ -888,7 +888,7 @@
 
               li.d-flex.mb-0
                 i.fas.fa-check.bg-color-4 
-                p.mb-0 Registros de sensores, drones o estaciones meteorológicas
+                p.mb-0 Registros de sensores, drones o estaciones meteorológicas.
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/39.png', alt='')  
 
@@ -900,7 +900,7 @@
           p.mb-0 #[b Tabla 7.] Ejemplos medios de verificación
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Presenta ejemplos de medios de verificación asociados a distintos indicadores de desempeño en el contexto agrícola. Estos elementos permiten comprobar, de forma objetiva y documentada, el cumplimiento de las actividades planificadas, el uso adecuado de recursos y la eficiencia operativa en campo. Su correcta utilización fortalece la trazabilidad, la transparencia y la toma de decisiones basada en evidencias.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Indicador de desempeño
@@ -1012,7 +1012,7 @@
           p.mb-0 #[b Tabla 8.] Ejemplo de responsabilidad en la recopilación de datos
       .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
         table(alt="Ejemplo claro de cómo distribuir responsabilidades en la recolección de datos agrícolas. Cada rol cuenta con tareas definidas y herramientas específicas, lo que asegura un monitoreo ordenado, preciso y eficiente del proceso productivo. Esta organización facilita la trazabilidad y el análisis técnico.")
-          caption Referencia Tabla - Norma APA
+          //caption Referencia Tabla - Norma APAbla - Norma APA
           thead.bg-color-7
             tr
               th Responsable
@@ -1022,7 +1022,7 @@
             tr
               td Supervisor de campo
               td Coordinar la recolección de datos, validar la calidad de la información
-              td Checklists, informes técnicos.
+              td #[i Checklist], informes técnicos.
 
             tr
               td Auxiliar agrícola
@@ -1037,7 +1037,7 @@
             tr
               td Operador de tecnología
               td Monitorear datos de sensores, GPS, drones o estaciones meteorológicas.
-              td Software de monitoreo, plataformas IoT.
+              td #[i  Software] de monitoreo, plataformas IoT.
 
             tr
               td Coordinador del plan

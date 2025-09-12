@@ -186,7 +186,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Arregocés-Guerra, P., Restrepo-Arias, J. F., Usme Martínez, M., Montoya-Yepes, J. P., & Branch-Bedoya, J. W. (2023). Monitoreo de cultivos bajo invernadero utilizando tecnologías 4.0. Ciencia y Tecnología Agropecuaria, 24(2).',
+        'Arregocés Guerra, P., Restrepo-Arias, J. F., Usme Martínez, M., Montoya-Yepes, J. P., & Branch-Bedoya, J. W. (2023). Monitoreo de cultivos bajo invernadero utilizando tecnologías 4.0. Ciencia y Tecnología Agropecuaria, 24(2).',
       link:
         'https://revistacta.agrosavia.co/index.php/revista/article/view/2853',
     },
@@ -274,7 +274,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Validadora de recursos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
