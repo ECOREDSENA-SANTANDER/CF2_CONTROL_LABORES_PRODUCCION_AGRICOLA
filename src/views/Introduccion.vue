@@ -29,8 +29,9 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/AeE7lFd9-rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Supervisión labores agrícolas
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/viBMSMzwDbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Monitoreo y evaluación del proceso de poscosecha en la producción agrícola
+
 
 
 </template>
