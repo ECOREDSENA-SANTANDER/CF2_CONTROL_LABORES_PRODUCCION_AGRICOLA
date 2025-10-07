@@ -86,7 +86,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF2_270401090_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -274,12 +274,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Andrea Ardila Chaparro',
-          cargo: 'Validadora de recursos digitales',
+          nombre: 'Erika Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

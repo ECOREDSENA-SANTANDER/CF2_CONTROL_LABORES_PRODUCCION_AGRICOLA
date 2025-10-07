@@ -27,19 +27,19 @@
                   .col-sm-12.col-lg-4.d-none.d-lg-block
                     img(src='@/assets/curso/temas/t2/2.svg', alt='')
                   .col-sm-12.col-lg-8
-                      h4 Comparar
+                      h4 A. Comparar
                       p.mb-0 Se contrastan los indicadores obtenidos con las metas de desempeño y los datos de referencia definidos previamente. Esto permite determinar si los resultados están dentro de lo esperado, si hay desviaciones o si se superaron los objetivos.
               .row.justify-content-center.align-items-center(titulo="" subtitulo="")
                   .col-sm-12.col-lg-4.d-none.d-lg-block
                     img(src='@/assets/curso/temas/t2/3.svg', alt='')
                   .col-sm-12.col-lg-8
-                      h4 Interpretar
+                      h4 B. Interpretar
                       p.mb-0 Se identifican tendencias, problemas operativos, avances técnicos o condiciones externas que pudieron influir (como el clima o la disponibilidad de recursos). Aquí se analiza tanto lo cuantitativo (rendimiento, insumos, tiempos) como lo cualitativo (observaciones de campo, desempeño humano).
               .row.justify-content-center.align-items-center(titulo="" subtitulo="")
                   .col-sm-12.col-lg-4.d-none.d-lg-block
                     img(src='@/assets/curso/temas/t2/4.svg', alt='')
                   .col-sm-12.col-lg-8
-                      h4 Decidir
+                      h4 C. Decidir
                       p.mb-0 A partir de los hallazgos, se formulan acciones correctivas, se ajustan procedimientos o se registran buenas prácticas para aplicar en futuros ciclos. Así, el análisis no solo corrige errores, sino que impulsa mejoras continuas.
       .cajon.color-secundario.p-4.mb-5(data-aos="fade-left")
         p.mb-0 Este enfoque integral facilita la toma de decisiones basadas en evidencia, lo que mejora la gestión técnica y optimiza el desempeño del sistema productivo.
@@ -273,25 +273,25 @@
               td Retraso en la aplicación de fertilizantes.
               td Reprogramar la labor y reforzar la capacitación del personal operativo.
               td Técnico agrónomo.
-              td 24 horas
+              td 24 horas.
 
             tr
               td Baja eficiencia en el uso del agua.
               td Revisar y reparar el sistema de riego por sectores.
               td Encargado de riego.
-              td 3 días
+              td 3 días.
 
             tr
               td Alta infestación de plagas.
               td Aplicar control fitosanitario y aumentar frecuencia del monitoreo.
               td Técnico en sanidad vegetal.
-              td 48 horas
+              td 48 horas.
 
             tr
               td Bajo rendimiento en actividades manuales.
               td Redistribuir tareas y ajustar número de jornales por hectárea.
               td Supervisor de campo.
-              td 1 semana
+              td 1 semana.
 
 
 

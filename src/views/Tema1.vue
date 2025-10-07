@@ -200,7 +200,7 @@
               .tarjeta-numerada.color-primario.p-5.hcard-1.mb-4
                 .tarjeta-numerada__numero
                   .h2 1
-                p.text-center Estaciones meteorológicas propias o de red pública (IDEAM, apps climáticas).
+                p.text-center Estaciones meteorológicas propias o de red pública (IDEAM, #[i apps] climáticas).
 
             .col-sm-12.col-md-6.col-lg-6
               .tarjeta-numerada.color-secundario.p-5.hcard-1.mb-4
@@ -967,7 +967,7 @@
 
               li.d-flex
                 i.fas.fa-check.bg-color-4 
-                p.mb-0  Saber qué instrumentos o formatos debe usar (planillas, apps, sensores, etc.).
+                p.mb-0  Saber qué instrumentos o formatos debe usar (planillas, #[i apps], sensores, etc.).
 
               li.d-flex
                 i.fas.fa-check.bg-color-4 
@@ -992,19 +992,19 @@
             .col-6
               figure
                 img(src='@/assets/curso/temas/t1/44.svg')
-          h3.text-center.mb-0 Duplicación de tareas
+          p.text-center.mb-0 Duplicación de tareas.
         .col-md.tarjeta.color-secundario.p-5.mb-cus
           .row.justify-content-center.mb-4
             .col-6
               figure
                 img(src='@/assets/curso/temas/t1/45.svg')
-          h3.text-center.mb-0 Errores en los registros
+          p.text-center.mb-0 Errores en los registros.
         .col-md.tarjeta.color-acento-contenido.p-5
           .row.justify-content-center.mb-4
             .col-6
               figure
                 img(src='@/assets/curso/temas/t1/46.svg')
-          h3.text-center.mb-0 Pérdida o falta de información
+          p.text-center.mb-0 Pérdida o falta de información.
 
 
       p.mb-5(data-aos="fade-left") Además, facilita el análisis posterior, la trazabilidad de los datos y una toma de decisiones más efectiva en el manejo del sistema agrícola.
