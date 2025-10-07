@@ -477,7 +477,7 @@
                 h4.mb-2.titcus-1 Monitoreo y evaluación del proceso de postcosecha en la producción agrícola
                 p.mb-0 Se invita a seguir explorando sobre las buenas prácticas en el control y seguimiento tras la recolección de cultivos.
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=WOGUq8Nz2kY" target="_blank")
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=viBMSMzwDbo" target="_blank")
                   span Ir al sitio
                   i.fas.fa-file-video  
 
