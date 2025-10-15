@@ -86,7 +86,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF2_270401090_DU.pdf',
+        download: 'downloads/CF2_72210013_DU.pdf',
       },
       {
         icono: 'fas fa-download',
