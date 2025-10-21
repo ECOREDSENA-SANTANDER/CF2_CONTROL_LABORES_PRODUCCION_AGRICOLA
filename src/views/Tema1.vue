@@ -66,7 +66,7 @@
               .col-6.mb-4.my-4.m-auto
                 img.ima4.p-4.br-1(src='@/assets/curso/temas/t1/6.svg')
             h4.text-center.mb-3 Monitoreo de recursos
-            p.mb-0.text-center Controla cómo se usan el agua, los fertilizantes y otros insumos, promoviendo una agricultura más eficiente y sostenible.
+            p.mb-0.text-center Controla cómo se usa el agua, los fertilizantes y otros insumos, promoviendo una agricultura más eficiente y sostenible.
       
       .cajon.color-secundario.p-4.mb-5
         p.mb-0 Cada uno de estos monitoreos aporta información valiosa para tomar mejores decisiones en el campo. ¡Conocerlos es fundamental para cualquier persona que quiera trabajar en el agro del futuro!
@@ -366,32 +366,32 @@
               th Instrumento o medio de verificación
           tbody
             tr
-              td.fw-bold Insumos agrícolas
+              td Insumos agrícolas
               td Cantidad utilizada, frecuencia, dosificación, desperdicio.
               td Registros de aplicación, inventarios, facturas.
 
             tr
-              td.fw-bold Mano de obra
+              td Mano de obra
               td Horas trabajadas, eficiencia por tarea, cumplimiento de jornadas.
               td Hojas de control de asistencia, bitácoras.
 
             tr
-              td.fw-bold Maquinaria y equipos
+              td Maquinaria y equipos
               td Uso, mantenimiento, disponibilidad, fallas.
               td Registros de uso, planillas de mantenimiento.
 
             tr
-              td.fw-bold Agua
+              td Agua
               td Volumen utilizado, frecuencia de riego, eficiencia.
               td Medidores, cronogramas de riego.
 
             tr
-              td.fw-bold Energía
+              td Energía
               td Consumo en sistemas de bombeo, iluminación, mecanización.
               td Facturas, lecturas de medidores.
 
             tr
-              td.fw-bold Recursos económicos
+              td Recursos económicos
               td Costos operativos, ejecución presupuestal, desviaciones.
               td Informes contables, presupuestos, facturación.
       
@@ -940,17 +940,19 @@
           h3.mb-0.titulo-icono-text.px-0.py-2 ¿Por qué es importante asignar responsabilidades en la recopilación de datos?
 
       .row.justify-content-center.mb-5.align-items-center
-        .col-sm-12.col-lg-5.bg-color-6.mb-cus
+        .col-sm-12.col-lg-8.bg-color-6.mb-cus
           p.mb-0.pcus-2 La responsabilidad en la recopilación de datos implica asignar de forma clara y organizada las funciones dentro del equipo de trabajo, para garantizar que la información obtenida durante el monitoreo sea confiable, oportuna y verificable.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/40.svg', alt='')
-        .col-sm-12.col-lg-3
-          img.w-25.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t1/41.svg', alt='')
-          p.mb-0 Cuando cada integrante sabe exactamente qué debe hacer, cómo hacerlo y con qué herramientas, el proceso de recolección se vuelve más disciplinado, preciso y continuo.
         .col-sm-12.col-lg-1.d-none.d-lg-block
           img.w-50(src='@/assets/curso/temas/t1/42.svg', alt='')
       
-
+      .row.justify-content-center.mb-5.align-items-center
+        .col-sm-12.col-lg-1.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/41.svg', alt='')
+        .col-sm-12.col-lg-11
+          p.mb-0 Cuando cada integrante sabe exactamente qué debe hacer, cómo hacerlo y con qué herramientas, el proceso de recolección se vuelve más disciplinado, preciso y continuo.
+        
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-left")
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')

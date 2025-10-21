@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p A continuación, se presenta un organigrama que resume los aspectos clave del proceso de monitoreo de las labores agrícolas. Este proceso debe llevarse a cabo con frecuencia y rigurosidad, teniendo claridad sobre los tipos de monitoreo existentes y los métodos aplicables. Con base en ello, se elabora un plan de monitoreo que servirá como guía para la supervisión del plan de trabajo. Una vez iniciado el monitoreo, los resultados obtenidos deben ser analizados y, si es necesario, se deben implementar acciones correctivas. Todo este proceso debe documentarse adecuadamente para generar un historial de producción útil para la toma de decisiones futuras.
+    p A continuación, se presenta un esquema que resume los aspectos clave del proceso de monitoreo de las labores agrícolas. Este proceso debe llevarse a cabo con frecuencia y rigurosidad, teniendo claridad sobre los tipos de monitoreo existentes y los métodos aplicables. Con base en ello, se elabora un plan de monitoreo que servirá como guía para la supervisión del plan de trabajo. Una vez iniciado el monitoreo, los resultados obtenidos deben ser analizados y, si es necesario, se deben implementar acciones correctivas. Todo este proceso debe documentarse adecuadamente para generar un historial de producción útil para la toma de decisiones futuras.
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
