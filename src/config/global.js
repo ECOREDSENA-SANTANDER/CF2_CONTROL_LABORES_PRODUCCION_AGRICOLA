@@ -186,6 +186,10 @@ export default {
   referencias: [
     {
       referencia:
+        'Arregocés Guerra, P., Restrepo-Arias, J. F., Usme Martínez, M., Montoya-Yepes, J. P., & Branch-Bedoya, J. W. (2023). Monitoreo de cultivos bajo invernadero utilizando tecnologías 4.0. Ciencia y Tecnología Agropecuaria, 24(2).',
+    },
+    {
+      referencia:
         'Corporación Colombiana de Investigación Agropecuaria – AGROSAVIA. (2023). Monitoreo de plagas en campo. AGROSAVIA.',
       link:
         'https://repository.agrosavia.co/handle/20.500.12324/38592?utm_source=chatgpt.com',
@@ -200,6 +204,10 @@ export default {
       referencia: 'UPRA (2025). Sistema de monitoreo de cultivos.',
       link:
         'https://upra.gov.co/es-co/Paginas/monitoreo-cultivos.aspx#:~:text=Un%20sistema%20de%20monitoreo%20de%20cultivos%20es%20una%20herramienta%20fundamental,sobre%20la%20extensi%C3%B3n%2C%20rendimiento%20y',
+    },
+    {
+      referencia:
+        'Farmonaut. Guía Definitiva: 9 Buenas Prácticas Agronómicas para Optimizar Cultivos en Colombia.',
     },
   ],
   creditos: [
